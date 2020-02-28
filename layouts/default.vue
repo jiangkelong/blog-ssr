@@ -27,9 +27,12 @@
         </b-col>
       </b-row>
       <b-row class="main">
-        <b-col sm="8" md="9" lg="9"> <nuxt /></b-col>
-        <b-col sm="4" md="3" lg="3">side</b-col>
+        <b-col lg="9"> <nuxt /></b-col>
+        <b-col lg="3">side</b-col>
       </b-row>
     </b-container>
   </div>
 </template>
+<script>
+export default {}
+</script>

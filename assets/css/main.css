@@ -15,6 +15,20 @@ body {
     margin-bottom: 20px;
     overflow: hidden;
 }
+/*鼠标悬停图片放大特效*/
+.img-hover-scale {
+    border: #000 solid 0px;
+    overflow: hidden;
+}
+
+.img-hover-scale img {
+    /*transform: scale(1,1);*/
+    transition: all 0.6s;
+}
+
+.img-hover-scale img:hover {
+    transform: scale(1.2);
+}
 /* 文章列表 */
 .article-list .article-title{
     margin: 0 0 10px 0;
@@ -41,10 +55,6 @@ body {
 }
 .article-list .article-thumbnail img {
     width: 100%;
-    transition: all 0.6s;
-}
-.article-list .article-list .article-thumbnail img:hover {
-    transform: scale(1.2);
 }
 @media only screen and (max-width: 767px) {
     .article-list .article-thumbnail {
@@ -67,19 +77,19 @@ body {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .article-list .article-info {
-    margin-top: 20px;
+    margin-top: 10px;
     overflow: hidden;
     color: #999;
-    line-height: 34px;
+    line-height: 10px;
+    text-align: left;
 }
 .article-list .article-info .item {
-    float: left;
     font-size: 12px;
-    padding: 0 0 0 10px;
-    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    /* margin: 0 10px 0 0; */
     color: #748594;
     line-height: 1.7;
     display: inline-block;
