@@ -26,11 +26,10 @@
           </b-carousel>
         </b-col>
       </b-row>
-      <b-row>
-        <b-col sm="8" md="9" lg="9">1 of 2</b-col>
-        <b-col sm="4" md="3" lg="3">2 of 2</b-col>
+      <b-row class="main">
+        <b-col sm="8" md="9" lg="9"> <nuxt /></b-col>
+        <b-col sm="4" md="3" lg="3">side</b-col>
       </b-row>
-      <nuxt />
     </b-container>
   </div>
 </template>

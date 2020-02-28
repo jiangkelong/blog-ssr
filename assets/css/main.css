@@ -1,0 +1,92 @@
+body {
+    padding-top: 50px;
+    /*padding-bottom: 20px;*/
+    background: #E9EAED;
+    font-size:15px;
+}
+.main{
+    margin-top: 20px ;
+}
+/* 背景卡片 */
+.card-bg{
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/* 文章列表 */
+.article-list .article-title{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.article-list .article-title a {
+    color: #333;
+}
+.article-list .article-title b {
+    color: #F00;
+}
+.article-list .article-thumbnail {
+    float: left;
+    width: 23.2%;
+    margin-right: 20px;
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;
+}
+.article-list .article-thumbnail img {
+    width: 100%;
+    transition: all 0.6s;
+}
+.article-list .article-list .article-thumbnail img:hover {
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 767px) {
+    .article-list .article-thumbnail {
+        width: 100px;
+        margin-right: 10px;
+        height: 76px;
+    }
+
+        .article-list .article-thumbnail img {
+            height: 100%;
+            max-width: 100%;
+        }
+}
+
+.article-list .article-summary {
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    margin-top: 20px;
+}
+.article-list .article-info {
+    margin-top: 20px;
+    overflow: hidden;
+    color: #999;
+    line-height: 34px;
+}
+.article-list .article-info .item {
+    float: left;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+    margin: 0 10px 0 0;
+    color: #748594;
+    line-height: 1.7;
+    display: inline-block;
+}
+    .article-list .article-info .item a {
+        color: #748594;
+    }
+    .article-list .article-info .item .b-icon {
+        margin-right:5px;
+    }

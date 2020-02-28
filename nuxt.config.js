@@ -64,6 +64,20 @@ module.exports = {
     '@nuxtjs/axios',
     'bootstrap-vue/nuxt'
   ],
+  bootstrapVue: {
+    components: [
+      'BContainer',
+      'BRow',
+      'BCol',
+      'BCarousel',
+      'BCarouselSlide',
+      'BIcon',
+      'BIconTagFill',
+      'BIconClockFill',
+      'BIconEyeFill',
+      'BIconGridFill'
+    ]
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
