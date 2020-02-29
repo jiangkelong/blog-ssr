@@ -18,13 +18,17 @@
       </p>
       <div class="article-info">
         <div class="item">
-          <b-icon icon="grid-fill"></b-icon><a href="#">CSS</a>
+          <b-icon icon="grid-fill" font-scale="1.5"></b-icon><a href="#">CSS</a>
         </div>
         <div class="item">
-          <b-icon icon="tag-fill"></b-icon><a href="#">CSS</a>
+          <b-icon icon="tag-fill" font-scale="1.5"></b-icon><a href="#">CSS</a>
         </div>
-        <div class="item"><b-icon icon="clock-fill"></b-icon>2019-11-01</div>
-        <div class="item"><b-icon icon="eye-fill"></b-icon>20</div>
+        <div class="item">
+          <b-icon icon="clock-fill" font-scale="1.5"></b-icon>2019-11-01
+        </div>
+        <div class="item">
+          <b-icon icon="eye-fill" font-scale="1.5"></b-icon>20
+        </div>
       </div>
     </div>
   </div>

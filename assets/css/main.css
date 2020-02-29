@@ -1,11 +1,18 @@
 body {
-    padding-top: 50px;
+    padding-top: 56px;
     /*padding-bottom: 20px;*/
     background: #E9EAED;
     font-size:15px;
 }
 .main{
     margin-top: 20px ;
+}
+/* 导航条 */
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 }
 /* 背景卡片 */
 .card-bg{

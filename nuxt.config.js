@@ -32,9 +32,9 @@ module.exports = {
       //   }
       routes.forEach((route, index) => {
         routes[index] = {
-          ...routes[index],
+          ...route,
           components: {
-            default: routes[index].component,
+            default: route.component,
             Logo: resolve(__dirname, 'components/Logo.vue')
           },
           chunkNames: {
