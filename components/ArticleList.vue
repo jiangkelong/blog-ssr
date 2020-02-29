@@ -26,9 +26,9 @@
         <div class="item">
           <b-icon icon="clock-fill" font-scale="1.5"></b-icon>2019-11-01
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <b-icon icon="eye-fill" font-scale="1.5"></b-icon>20
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

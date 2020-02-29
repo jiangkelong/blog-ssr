@@ -5,8 +5,15 @@ module.exports = {
       routes.push(
         {
           path: '/page-:index',
-          name: 'index',
-          component: resolve(__dirname, 'pages/index.vue')
+          name: 'index-2',
+          // component: resolve(__dirname, 'pages/index.vue')
+          components: {
+            default: resolve(__dirname, 'pages/index.vue'),
+            Carousel: resolve(__dirname, 'components/Carousel.vue')
+          },
+          chunkNames: {
+            Carousel: 'components/Carousel'
+          }
         },
         {
           path: '/categories/:categoryName/page-:index',
@@ -19,29 +26,29 @@ module.exports = {
           component: resolve(__dirname, 'pages/tags/_tagName.vue')
         }
       )
-      //   const index = routes.findIndex((route) => route.name === 'index')
-      //   routes[index] = {
-      //     ...routes[index],
-      //     components: {
-      //       default: routes[index].component,
-      //       Logo: resolve(__dirname, 'components/Logo.vue')
-      //     },
-      //     chunkNames: {
-      //       Logo: 'components/Logo'
-      //     }
-      //   }
-      routes.forEach((route, index) => {
-        routes[index] = {
-          ...route,
-          components: {
-            default: route.component,
-            Logo: resolve(__dirname, 'components/Logo.vue')
-          },
-          chunkNames: {
-            Logo: 'components/Logo'
-          }
+      const index = routes.findIndex((route) => route.name === 'index')
+      routes[index] = {
+        ...routes[index],
+        components: {
+          default: routes[index].component,
+          Carousel: resolve(__dirname, 'components/Carousel.vue')
+        },
+        chunkNames: {
+          Carousel: 'components/Carousel'
         }
-      })
+      }
+      //   routes.forEach((route, index) => {
+      //     routes[index] = {
+      //       ...route,
+      //       components: {
+      //         default: route.component,
+      //         Logo: resolve(__dirname, 'components/Logo.vue')
+      //       },
+      //       chunkNames: {
+      //         Logo: 'components/Logo'
+      //       }
+      //     }
+      //   })
     }
   },
   /*

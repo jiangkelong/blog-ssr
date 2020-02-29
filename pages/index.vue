@@ -1,15 +1,18 @@
 <template>
   <div>
+    <Carousel />
     <article-list></article-list>
   </div>
 </template>
 
 <script>
 import ArticleList from '~/components/ArticleList.vue'
+import Carousel from '~/components/Carousel.vue'
 
 export default {
   components: {
-    ArticleList
+    ArticleList,
+    Carousel
   }
 }
 </script>
