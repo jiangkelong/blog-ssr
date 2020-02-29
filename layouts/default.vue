@@ -1,5 +1,6 @@
 <template>
   <div>
+    <navbar />
     <b-container>
       <b-row v-if="$route.name === 'index'">
         <b-col>
@@ -36,5 +37,10 @@
   </div>
 </template>
 <script>
-export default {}
+import Navbar from '~/components/Navbar.vue'
+export default {
+  components: {
+    Navbar
+  }
+}
 </script>
