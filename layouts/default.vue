@@ -31,6 +31,8 @@
         <b-col lg="3">side</b-col>
       </b-row>
     </b-container>
+
+    <nuxt name="Logo" />
   </div>
 </template>
 <script>

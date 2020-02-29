@@ -19,6 +19,29 @@ module.exports = {
           component: resolve(__dirname, 'pages/tags/_tagName.vue')
         }
       )
+      //   const index = routes.findIndex((route) => route.name === 'index')
+      //   routes[index] = {
+      //     ...routes[index],
+      //     components: {
+      //       default: routes[index].component,
+      //       Logo: resolve(__dirname, 'components/Logo.vue')
+      //     },
+      //     chunkNames: {
+      //       Logo: 'components/Logo'
+      //     }
+      //   }
+      routes.forEach((route, index) => {
+        routes[index] = {
+          ...routes[index],
+          components: {
+            default: routes[index].component,
+            Logo: resolve(__dirname, 'components/Logo.vue')
+          },
+          chunkNames: {
+            Logo: 'components/Logo'
+          }
+        }
+      })
     }
   },
   /*
