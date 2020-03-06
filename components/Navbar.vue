@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" fixed="top" variant="info">
+    <b-navbar toggleable="sm" fixed="top" class="main-opacity">
       <b-container>
         <b-navbar-brand href="#">Jiang</b-navbar-brand>
 

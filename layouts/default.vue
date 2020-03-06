@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="bg"></div>
     <navbar />
     <b-container>
       <b-row>
