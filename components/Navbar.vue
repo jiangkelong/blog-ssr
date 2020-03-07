@@ -2,16 +2,16 @@
   <div>
     <b-navbar toggleable="sm" fixed="top" class="main-opacity">
       <b-container>
-        <b-navbar-brand href="#">Jiang</b-navbar-brand>
+        <b-navbar-brand href="/">Jiang</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="#">首页</b-nav-item>
+            <b-nav-item href="/">首页</b-nav-item>
             <b-nav-item href="#">归档</b-nav-item>
-            <b-nav-item href="#">分类</b-nav-item>
-            <b-nav-item href="#">标签</b-nav-item>
+            <b-nav-item href="/categories">分类</b-nav-item>
+            <b-nav-item href="/tags">标签</b-nav-item>
             <b-nav-item href="#">关于</b-nav-item>
           </b-navbar-nav>
 

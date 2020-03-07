@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <h1>分类文章列表页,分类：{{ categoryName }}，第{{ pageIndex }}页</h1>
   </div>
 </template>
