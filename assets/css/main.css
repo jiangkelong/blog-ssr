@@ -24,6 +24,12 @@ body {
 .main-opacity{
     opacity:0.9;
 }
+
+/* 链接悬浮色 */
+.article-item .article-title a:hover,
+.side-item .list-article li a:hover {
+    color: #6bc30d;
+}
 /* 导航条 */
 .navbar{
     background-color: #fff;
@@ -205,8 +211,19 @@ body {
 .side-item .list-article li a {
     color: #848484;
 }
-/* 链接悬浮色 */
-.article-item .article-title a:hover,
-.side-item .list-article li a:hover {
-    color: #6bc30d;
+/* 页脚 */
+.footer{
+    background-color: #212220;
+    color: #919290;
+    font-size: 14px;
+    padding: 20px 0;
+    position: relative;
+    zoom: 1;
+    clear: both;
+    line-height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.footer a{
+    color: #919290;
 }
