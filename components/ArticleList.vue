@@ -1,6 +1,6 @@
 <template>
   <div class="article-list">
-    <section v-for="i in 9" :key="i" class="card-bg article-item main-opacity">
+    <section v-for="i in 9" :key="i" class="card-bg article-item">
       <div class="fc-flag">置顶</div>
       <h1 class="article-title">
         <a href="#" target="_blank">

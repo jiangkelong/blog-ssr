@@ -20,10 +20,6 @@ body {
 .main-container{
     min-height: 95vh;
 }
-/* 透明度 */
-.main-opacity{
-    opacity:0.9;
-}
 
 /* 链接悬浮色 */
 .article-item .article-title a:hover,
@@ -47,7 +43,7 @@ body {
 }
 /* 背景卡片 */
 .card-bg{
-    background: #fff;
+    background-color:rgb(255, 255, 255,0.85);
     border-radius: 3px;
     /* padding: 20px; */
     margin-bottom: 20px;
@@ -159,7 +155,7 @@ body {
     padding: 5px;
     line-height: 30px;
     font-weight: 400;
-    border-bottom: 1px solid #e8e9e7;
+    border-bottom: 1px solid #848484;
     color: #383937;
     position: relative;
     font-size: 18px;
