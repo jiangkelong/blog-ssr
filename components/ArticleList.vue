@@ -41,7 +41,30 @@
   </div>
 </template>
 <script>
+// import ScrollReveal from 'scrollreveal'
 export default {
-  name: 'ArticleList'
+  name: 'ArticleList',
+  data() {
+    return {}
+  },
+  created() {
+    if (process.client) {
+      this.$sr.reveal('.article-item', {
+        reset: false,
+        distance: '150%',
+        // origin: 'left',
+        duration: 800,
+        easing: 'ease',
+        interval: 100,
+        opacity: 0,
+        rotate: {
+          x: 0,
+          y: 0,
+          z: 0
+        },
+        scale: 0.5
+      })
+    }
+  }
 }
 </script>
