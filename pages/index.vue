@@ -15,7 +15,6 @@ export default {
     // Carousel
   },
   asyncData({ params }) {
-    console.log(1)
     return {
       categoryName: params.categoryName,
       pageIndex: params.index ? params.index : 1
