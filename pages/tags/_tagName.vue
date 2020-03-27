@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <h1>标签文章列表页，标签：{{ tagName }}，第{{ pageIndex }}页</h1>
   </div>
 </template>

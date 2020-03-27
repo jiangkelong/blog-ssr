@@ -104,6 +104,7 @@ module.exports = {
       'BNavbar',
       'BNavbarNav',
       'BNavItem',
+      'BNavText',
       'BNavbarBrand',
       'BNavbarToggle',
       'BCollapse',

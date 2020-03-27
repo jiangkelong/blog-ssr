@@ -3,16 +3,12 @@
     <section v-for="i in 9" :key="i" class="card-bg article-item">
       <div class="fc-flag">置顶</div>
       <h1 class="article-title">
-        <a href="#" target="_blank">
-          我有一个梦想
-        </a>
+        <nuxt-link to="/tags">我有一个梦想</nuxt-link>
       </h1>
       <b-row>
         <b-col md="4">
           <div class="article-thumbnail img-hover-scale">
-            <a href="#" target="_blank">
-              <img src="/4.jpg" alt="..." />
-            </a>
+            <nuxt-link to="/tags"><img src="/4.jpg" alt="..."/></nuxt-link>
           </div>
         </b-col>
         <b-col md="8">
@@ -21,12 +17,12 @@
           </p>
           <div class="article-info">
             <div class="item">
-              <b-icon icon="grid-fill" font-scale="1.5"></b-icon
-              ><a href="#">CSS</a>
+              <b-icon icon="grid-fill" font-scale="1.5" />
+              <nuxt-link to="/categories/css">CSS</nuxt-link>
             </div>
             <div class="item">
-              <b-icon icon="tag-fill" font-scale="1.5"></b-icon
-              ><a href="#">CSS</a>
+              <b-icon icon="tag-fill" font-scale="1.5" />
+              <nuxt-link to="/tags/css">CSS</nuxt-link>
             </div>
             <div class="item">
               <b-icon icon="clock-fill" font-scale="1.5"></b-icon>2019-11-01
@@ -41,7 +37,6 @@
   </div>
 </template>
 <script>
-// import ScrollReveal from 'scrollreveal'
 export default {
   name: 'ArticleList',
   data() {

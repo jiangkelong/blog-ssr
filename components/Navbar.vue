@@ -2,17 +2,41 @@
   <div>
     <b-navbar toggleable="sm" fixed="top">
       <b-container>
-        <b-navbar-brand href="/">Jiang</b-navbar-brand>
+        <b-navbar-brand>
+          <NuxtLink to="/">
+            Jiang
+          </NuxtLink>
+        </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item href="/">首页</b-nav-item>
-            <b-nav-item href="#">归档</b-nav-item>
-            <b-nav-item href="/categories">分类</b-nav-item>
-            <b-nav-item href="/tags">标签</b-nav-item>
-            <b-nav-item href="#">关于</b-nav-item>
+            <b-nav-text>
+              <NuxtLink to="/">
+                首页
+              </NuxtLink>
+            </b-nav-text>
+            <b-nav-text>
+              <NuxtLink to="/">
+                归档
+              </NuxtLink>
+            </b-nav-text>
+            <b-nav-text>
+              <NuxtLink to="/categories">
+                分类
+              </NuxtLink>
+            </b-nav-text>
+            <b-nav-text>
+              <NuxtLink to="/tags">
+                标签
+              </NuxtLink>
+            </b-nav-text>
+            <b-nav-text>
+              <NuxtLink to="/">
+                关于
+              </NuxtLink>
+            </b-nav-text>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->

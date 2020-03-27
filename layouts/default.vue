@@ -3,7 +3,7 @@
     <navbar />
     <b-container class="main-container">
       <b-row>
-        <b-col class="b-col" lg="9"> <nuxt /></b-col>
+        <b-col class="b-col" lg="9"> <nuxt keep-alive/></b-col>
         <b-col class="b-col" lg="3"><view-side /></b-col>
       </b-row>
     </b-container>
