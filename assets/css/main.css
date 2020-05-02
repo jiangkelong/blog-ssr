@@ -64,9 +64,9 @@ body {
 }
 /* 背景卡片 */
 .card-bg{
-    background-color:rgb(255, 255, 255,0.85);
+    background-color:rgb(255, 255, 255,0.75);
     border-radius: 3px;
-    /* padding: 20px; */
+    padding: 20px 30px 25px 30px;
     margin-bottom: 20px;
     overflow: hidden;
 }
@@ -94,7 +94,7 @@ body {
     position: relative;
 }
 .article-item{
-    padding: 20px 30px 25px 30px;
+    /* padding: 20px 30px 25px 30px; */
     overflow: hidden;
     position: relative;
 }
@@ -146,14 +146,14 @@ body {
     -webkit-line-clamp: 3;
     /* margin-top: 20px; */
 }
-.article-item .article-info {
+.article-info {
     margin-top: 10px;
     overflow: hidden;
     color: #999;
     line-height: 10px;
     text-align: left;
 }
-.article-item .article-info .item {
+.article-info .item {
     font-size: 12px;
     padding: 0 10px 0 0;
     /* margin: 0 10px 0 0; */
@@ -161,10 +161,10 @@ body {
     line-height: 1.7;
     display: inline-block;
 }
-    .article-item .article-info .item a {
+    .article-info .item a {
         color: #748594;
     }
-    .article-item .article-info .item .b-icon {
+    .article-info .item .b-icon {
         margin-right:5px;
     }
 /* 侧边栏 */
@@ -172,8 +172,8 @@ body {
     position: relative;
 }
 .side-item .side-item-title{
-    margin: 10px 20px;
-    padding: 5px;
+    margin: 0 20px;
+    padding: 0 5px 5px;
     line-height: 30px;
     font-weight: 400;
     border-bottom: 1px solid #848484;
